@@ -245,3 +245,43 @@ Urban Planning and Policy Making: Pollution prediction models contribute to urba
 Emergency Response and Preparedness: During events such as industrial accidents, wildfires, or natural disasters, pollution prediction can assist in emergency response planning. By forecasting pollutant dispersion patterns, authorities can take appropriate measures to evacuate affected areas, protect public health, and mitigate the immediate and long-term environmental consequences.
 
 Air Quality Management: Pollution prediction is crucial for air quality management programs. It aids in the identification of pollution sources, evaluation of emission reduction strategies, and the design of effective control measures to improve air quality and comply with regulatory standards.
+
+
+### Air Quality in Biggest Cities of the World
+
+Pollutant from Dataset
+PM2.5 (Particulate Matter 2.5 micrometers or smaller): PM2.5 refers to fine particles suspended in the air with a diameter of 2.5 micrometers or smaller. These particles can come from various sources such as vehicle emissions, industrial processes, and natural sources like dust and pollen. PM2.5 particles can penetrate deep into the respiratory system and have adverse effects on human health.
+
+O3 (Ozone): Ground-level ozone is a reactive gas formed when sunlight reacts with pollutants like volatile organic compounds (VOCs) and nitrogen oxides (NOx). It is a major component of smog and can cause respiratory problems, especially in sensitive individuals like children, the elderly, and people with respiratory conditions.
+
+NO2 (Nitrogen Dioxide): Nitrogen dioxide is a reddish-brown gas primarily emitted from vehicle exhaust and combustion processes in industries and power plants. It can irritate the respiratory system and contribute to the formation of smog and acid rain.
+
+PM10 (Particulate Matter 10 micrometers or smaller): PM10 refers to larger particles with a diameter of 10 micrometers or smaller. These particles include both fine and coarse particles, originating from sources like construction activities, road dust, and industrial processes. While they are not as fine as PM2.5, they can still have health impacts when inhaled.
+
+SO2 (Sulfur Dioxide): Sulfur dioxide is a gas produced by burning fossil fuels, especially those containing sulfur, like coal and oil. It can lead to respiratory issues and contribute to the formation of acid rain, which can have detrimental effects on the environment and human-made structures.
+
+These pollutants are often monitored as part of air quality assessments to ensure public health and environmental protection. Regulatory agencies and organizations establish air quality standards and guidelines to limit the concentration of these pollutants in the atmosphere to reduce their negative impacts.
+
+Source names from Dataset:
+ChinaAQIData: ChinaAQIData refers to the Air Quality Index (AQI) used in China to assess and communicate the level of air pollution. It takes into account various pollutants like PM2.5, PM10, sulfur dioxide (SO2), nitrogen dioxide (NO2), ozone (O3), and carbon monoxide (CO). The AQI is typically divided into different categories (e.g., Good, Moderate, Unhealthy) to inform the public about air quality conditions and associated health risks.
+
+AirNow: AirNow is a United States government-operated platform that provides real-time and forecasted air quality information to the public. It offers an AQI calculation based on various pollutants and includes color-coded categories to help people understand air quality conditions in their area.
+
+caaqm (Centralized Air Quality Monitoring): Caaqm refers to the centralized air quality monitoring system used in various regions to monitor air pollution levels. This system typically involves a network of monitoring stations that measure pollutants and report data to regulatory agencies. It helps in assessing compliance with air quality standards and making informed policy decisions.
+
+EEA Spain: EEA stands for the European Environment Agency. EEA Spain refers to the air quality monitoring and reporting activities specific to Spain under the umbrella of the European Union. The EEA compiles air quality data from various European countries to assess air quality trends and inform policies aimed at improving air quality and reducing pollution.
+
+EEA Germany: Similarly, EEA Germany refers to the air quality monitoring and reporting activities specific to Germany within the European Union. It involves data collection, analysis, and reporting on air quality conditions in Germany to contribute to the overall understanding of air pollution in Europe.
+
+These platforms and systems play a crucial role in informing the public, policymakers, and researchers about air quality conditions and trends, promoting awareness and action to address air pollution and its impacts.
+
+About Units in Dataset:
+µg/m³ and ppm are units of measurement commonly used to express concentrations of substances in the air. They are often used to quantify the amount of pollutants or gases present in the atmosphere. Here's what each unit means:
+
+µg/m³ (micrograms per cubic meter):
+This unit measures the concentration of a substance in the air by indicating the mass of that substance per unit volume of air. It is used to express the amount of particulate matter or solid particles suspended in the air. Micrograms (µg) are a unit of mass, and cubic meters (m³) are a unit of volume. So, when you see a value like "10 µg/m³," it means there are 10 micrograms of the substance in every cubic meter of air.
+
+ppm (parts per million):
+PPM is a unit used to express the concentration of a substance in a gaseous mixture. It indicates the number of parts of a particular substance per one million parts of the total mixture by volume. This unit is often used for gases such as pollutants, gases in the atmosphere, or trace elements. For example, if the concentration of a gas is 1 ppm, it means that there is one part of that gas for every one million parts of the mixture.
+
+Both units are essential for assessing air quality and environmental monitoring, especially in areas where the presence of pollutants or gases can have health or ecological impacts. Different substances might have different recommended exposure limits in these units to ensure human and environmental safety.
