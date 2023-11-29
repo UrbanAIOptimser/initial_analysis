@@ -11,7 +11,7 @@
 
 
 ## Dataset
-  * Chicago Divvy Bicycle Sharing Data (202004-divvy-tripdata)
+### Chicago Divvy Bicycle Sharing Data (202004-divvy-tripdata)
 Sharing bicycles represent a healthier and environment-friendly lifestyle. There could be some interesting mechanism behind the sharing bicycles.
 
 Content
@@ -27,7 +27,7 @@ data_raw.csv: contains all the bicycle data from 2013 to 2017, it also contains 
 
 data.csv: contains the data that has been cleaned. I deleted some useless weather information and keep the trips that are within 1 hour. Also, I delete some data with missing values.
 
-* Traveler Trip Dataset (Travel details dataset)
+### Traveler Trip Dataset (Travel details dataset)
 The travel dataset provides detailed information on various trips taken by travelers, including their destination, travel dates, duration of the trip in days, traveler demographics (name, age, gender, and nationality), as well as the type and cost of accommodation and transportation. This dataset can be used to gain insights into travel patterns, preferences, and behaviors of different types of travelers. It can also be helpful for travel-related businesses, such as travel agencies, to create tailored marketing strategies and travel packages that meet the needs and preferences of different travelers.
 
 Column details:
@@ -59,10 +59,9 @@ Column details:
 • Transportation cost: The cost of transportation for the entire trip.
 
 
-* Greece Travel Data (travel_tourism_dataset)
+### Greece Travel Data (travel_tourism_dataset)
 
 Synthetically generated dataset of travel history(Greece)
-
 Contains:
 10,000 record details,
 14 column metrics,
@@ -71,7 +70,6 @@ Diverse variations,
 A mix of real and synthetic data.
 
 Metrics include:
-
 Trip #no.
 Location(Greece)
 Duration
@@ -87,9 +85,7 @@ Sex
 Nationality
 Date of Traveler
 
-
-
-* Tourism Page Engagement (Customer behaviour Tourism)
+### Tourism Page Engagement (Customer behaviour Tourism)
 This dataset provides complete information about Customer behaviour for a typical Social Media page of tourism company.
 
 Variable and Description
