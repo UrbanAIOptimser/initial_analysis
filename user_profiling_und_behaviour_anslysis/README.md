@@ -333,3 +333,34 @@ Measurement Timestamp Label: A descriptive label or text associated with the mea
 Measurement ID: An identifier or unique reference assigned to each individual measurement or data point. It helps track and organize the collected data.
 
 These variables collectively provide a comprehensive picture of weather conditions at a specific location and time. By analyzing and interpreting these measurements, researchers and meteorologists can gain insights into weather patterns, climate trends, and environmental conditions.
+
+
+### Air Pollution and Mental Health
+https://www.kaggle.com/datasets/thedevastator/air-pollution-and-mental-health?select=CitieSHealth_BCN_DATA_PanelStudy_20220414.csv
+Identifying Short-Term Human Impacts of Air Pollution
+By [[https://zenodo.org/records/6503022#.Y8OrG9JBwUE]]
+
+About this dataset
+This dataset from the CitieS-Health project provides a unique insight into the impact of air pollution on humans. It is comprised of data collected in Barcelona, Spain, and examines various environmental variables, such as air pollution levels, and their effects on mental health and wellbeing. In addition to environmental factors, this dataset also captures self-reported survey data on mental health, physical activity, diet habits, and more. From performance in a Stroop test to information on total noise exposure at 55 dB - this comprehensive dataset will give you everything you need to understand the link between air pollution and human health so that we can begin finding better solutions for a cleaner future
+
+More Datasets
+For more datasets, click here.
+
+Featured Notebooks
+🚨 Your notebook can be here! 🚨!
+How to use the dataset
+This dataset captures information on air pollution levels and variables related to mental health, such as performance in a Stroop test and self-reported surveys on mental health, physical activity, diet, and other factors. It can be used to answer the question “how does short-term exposure to air pollution affect human mental health?”
+
+To use this dataset, start by understanding the variables you are interested in exploring. Look for correlations between environmental conditions (i.e., air pollution levels) and measures of wellbeing (i.e., performance in a Stroop test). Additionally pay special attention to any factors that may be associated with different levels of exposure (like access to green/blue spaces within 300m buffer).
+
+Next you should examine any relevant self-reported surveys questions related to mental health or wellbeing (such as bienestar or sueno). For example consider looking at how responses vary based on age or gender; it is possible that some demographic groups are more sensitive than others when exposed to air pollutants.
+Finally consider incorporating information from other external sources like local noise levels or traffic patterns into your analysis – these will help contextualise your findings even further.
+
+Using this dataset you can begin uncovering the impact of short-term exposure to air pollution on humans – by combining different variables together understanding what correlations exist between environment conditions and measures of wellbeing can help people make better decisions about their lifestyle choices like where they choose live, work or play!
+
+Research Ideas
+Analyzing the differences in response time in Stroop tests by age and gender. By looking at the accurate response time when it comes to completing a Stroop test from participants of different genders and ages, conclusions can be drawn about how our responses are affected by environmental factors like air pollution levels and noise exposure
+
+Correlating green-space access with mental health outcomes over a period of time. This dataset can be used to analyze if access to green spaces has an impact on overall mental wellbeing indices like stress levels or perceived mood over a certain study period - allowing us to inform policies that leverage locations of urban green-spaces for better outcomes especially in heavily polluted cities
+
+Acknowledgements
