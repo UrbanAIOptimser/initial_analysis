@@ -194,3 +194,38 @@ Compare the % of total accidents by month. Do you notice any seasonal patterns?
 Break down accident frequency by day of week and hour of day. Based on this data, when do accidents occur most frequently?
 On which particular street were the most accidents reported? What does that represent as a % of all reported accidents?
 What was the most common contributing factor for the accidents reported in this sample (based on Vehicle 1)? What about for fatal accidents specifically?
+
+
+### Transportation Dataset
+
+DESCRIPTION
+This table contains data on the percent of residents aged 16 years and older mode of transportation to work for …
+
+SUMMARY
+This table contains data on the percent of residents aged 16 years and older mode of transportation to work for California, its regions, counties, cities/towns, and census tracts. Data is from the U.S. Census Bureau, Decennial Census and American Community Survey. The table is part of a series of indicators in the Healthy Communities Data and Indicators Project of the Office of Health Equity. Commute trips to work represent 19% of travel miles in the United States. The predominant mode – the automobile - offers extraordinary personal mobility and independence, but it is also associated with health hazards, such as air pollution, motor vehicle crashes, pedestrian injuries and fatalities, and sedentary lifestyles. Automobile commuting has been linked to stress-related health problems. Active modes of transport – bicycling and walking alone and in combination with public transit – offer opportunities for physical activity, which is associated with lowering rates of heart disease and stroke, diabetes, colon and breast cancer, dementia and depression. Risk of injury and death in collisions are higher in urban areas with more concentrated vehicle and pedestrian activity. Bus and rail passengers have a lower risk of injury in collisions than motorcyclists, pedestrians, and bicyclists. Minority communities bear a disproportionate share of pedestrian-car fatalities; Native American male pedestrians experience four times the death rate Whites or Asian pedestrians, and African-Americans and Latinos experience twice the rate as Whites or Asians. More information about the data table and a data dictionary can be found in the About/Attachments section.
+
+* ind_id - Indicator ID
+* ind_definition - Definition of indicator in plain language
+* reportyear - Year that the indicator was reported
+* race_eth_code - numeric code for a race/ethnicity group
+* race_eth_name - Name of race/ethnic group
+* geotype - Type of geographic unit
+* geotypevalue - Value of geographic unit
+* geoname - Name of a geographic unit
+* county_name - Name of county that geotype is in
+* county_fips - FIPS code of the county that geotype is in
+* region_name - MPO-based region name; see MPO_County list tab
+* region_code - MPO-based region code; see MPO_County list tab
+* mode - Mode of transportation short name
+* mode_name - Mode of transportation long name
+* pop_total - denominator
+* pop_mode - numerator
+*percent - Percent of Residents Mode of Transportation to Work,
+* Population Aged 16 Years and Older
+* LL_95CI_percent - The lower limit of 95% confidence interval
+* UL_95CI_percent - The lower limit of 95% confidence interval
+* percent_se - Standard error of the percent mode of transportation
+* percent_rse - Relative standard error (se/value) expressed as a percent
+* CA_decile - California decile
+* CA_RR - Rate ratio to California rate
+* version - Date/time stamp of a version of data
