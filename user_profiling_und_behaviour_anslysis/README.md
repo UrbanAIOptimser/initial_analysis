@@ -106,3 +106,91 @@ Variable and Description
 * travelling_network_rating:	The rating indicating if the user has close friends who also like traveling. 1 is high, 4 is lowest
 * Adult_flag:	Whether the customer is an adult or not
 * Daily_Avg_mins_spend_on_traveling_page:	Average time spent on the company's travel page by the user
+
+### UK 2016 Road Safety Data
+
+UK police forces collect data on every vehicle collision in the UK on a form called Stats19. Data from this form ends up at the DfT and is published at https://data.gov.uk/dataset/road-accidents-safety-data
+
+Content
+There are 4 CSVs and an Excel file in this set. Accidents is the primary table and has references by Accident_Index to the other tables.
+
+Acknowledgements
+Department for Transport and the UK's wonderful Open Gov initiative https://data.gov.uk/
+
+Inspiration
+Are there patterns for accidents involving different road users?
+Can we predict the safest / most dangerous times to travel
+Can this data help route cyclists around accident hotspots taking into account the time of day, weather, route etc
+Are certain cars more accident prone than others?
+
+
+
+### Real-Time Bus Journeys: Exploring Transit Data
+
+This dataset contains Real-Time Transit Data (RTTD) for a selection of bus trips from August 16 to August 20, 2022. The data can provide insights into the operational details of bus journeys within the specified time frame.
+The purpose of this dataset is to facilitate research, analysis, and exploration of bus operations and travel patterns during the specified period. Data analysts, researchers, and transit enthusiasts can utilize this dataset to gain insights into bus service performance, identify patterns in bus scheduling, and study travel behavior.
+
+### Bike Share Data
+Over the past decade, bicycle-sharing systems have been growing in number and popularity in cities across the world. Bicycle-sharing systems allow users to rent bicycles on a very short-term basis for a price. This allows people to borrow a bike from point A and return it at point B, though they can also return it to the same location if they'd like to just go for a ride. Regardless, each bike can serve several users per day.
+
+Thanks to the rise in information technologies, it is easy for a user of the system to access a dock within the system to unlock or return bicycles. These technologies also provide a wealth of data that can be used to explore how these bike-sharing systems are used.
+
+In this project, you will use data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. You will compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
+
+The Datasets
+Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+
+Start Time (e.g., 2017-01-01 00:07:57)
+End Time (e.g., 2017-01-01 00:20:53)
+Trip Duration (in seconds - e.g., 776)
+Start Station (e.g., Broadway & Barry Ave)
+End Station (e.g., Sedgwick St & North Ave)
+User Type (Subscriber or Customer)
+The Chicago and New York City files also have the following two columns:
+
+Gender
+Birth Year
+
+Data for the first 10 rides in the new_york_city.csv file
+
+The original files are much larger and messier, and you don't need to download them, but they can be accessed here if you'd like to see them (Chicago, New York City, Washington). These files had more columns and they differed in format in many cases. Some data wrangling has been performed to condense these files to the above core six columns to make your analysis and the evaluation of your Python skills more straightforward. In the Data Wrangling course that comes later in the Data Analyst Nanodegree program, students learn how to wrangle the dirtiest, messiest datasets, so don't worry, you won't miss out on learning this important skill!
+
+Statistics Computed
+You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
+
+1 Popular times of travel (i.e., occurs most often in the start time)
+most common month
+most common day of week
+most common hour of day
+
+2 Popular stations and trip
+most common start station
+most common end station
+most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+3 Trip duration
+total travel time
+average travel time
+
+4 User info
+counts of each user type
+counts of each gender (only available for NYC and Chicago)
+earliest, most recent, most common year of birth (only available for NYC and Chicago)
+The Files
+To answer these questions using Python, you will need to write a Python script. To help guide your work in this project, a template with helper code and comments is provided in a bikeshare.py file, and you will do your scripting in there also. You will need the three city dataset files too:
+
+chicago.csv
+new_york_city.csv
+washington.csv
+
+All four of these files are zipped up in the Bikeshare file in the resource tab in the sidebar on the left side of this page. You may download and open up that zip file to do your project work on your local machine.
+
+
+### NYC Traffic Accidents
+Motor vehicle collisions reported by the New York City Police Department from January-August 2020. Each record represents an individual collision, including the date, time and location of the accident (borough, zip code, street name, latitude/longitude), vehicles and victims involved, and contributing factors.
+
+Recommended Analysis
+Compare the % of total accidents by month. Do you notice any seasonal patterns?
+Break down accident frequency by day of week and hour of day. Based on this data, when do accidents occur most frequently?
+On which particular street were the most accidents reported? What does that represent as a % of all reported accidents?
+What was the most common contributing factor for the accidents reported in this sample (based on Vehicle 1)? What about for fatal accidents specifically?
