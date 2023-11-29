@@ -89,20 +89,20 @@ Date of Traveler
 This dataset provides complete information about Customer behaviour for a typical Social Media page of tourism company.
 
 Variable and Description
-UserID: Unique ID of the user
-Buy_ticket:	Buy a ticket in the next month (target variable)
-Yearly_avg_view_on_travel_page:	Average yearly views on any travel-related page by the user
-preferred_device	Preferred device for user login
-total_likes_on_outstation_checkin_given:	Total number of likes given by the user on out-of-station check-ins in the last year
-yearly_avg_Outstation_checkins:	Average number of out-of-station check-ins done by the user
-member_in_family:	Total number of relationships mentioned by the user in the account
-preferred_location_type:	Preferred type of location for traveling by the user
-Yearly_avg_comment_on_travel_page:	Average yearly comments on any travel-related page by the user
-total_likes_on_outofstation_checkin_received:	Total number of likes received by the user on out-of-station check-ins in the last year
-week_since_last_outstation_checkin:	Number of weeks since the last out-of-station check-in update by the user
-following_company_page:	Whether the customer is following the company page (Yes or No)
-montly_avg_comment_on_company_page:	Average monthly comments on the company page by the user
-working_flag:	Whether the customer is working or not
-travelling_network_rating:	The rating indicating if the user has close friends who also like traveling. 1 is high, 4 is lowest
-Adult_flag:	Whether the customer is an adult or not
-Daily_Avg_mins_spend_on_traveling_page:	Average time spent on the company's travel page by the user
+* UserID: Unique ID of the user
+* Buy_ticket:	Buy a ticket in the next month (target variable)
+* Yearly_avg_view_on_travel_page:	Average yearly views on any travel-related page by the user
+* preferred_device:	Preferred device for user login
+* total_likes_on_outstation_checkin_given:	Total number of likes given by the user on out-of-station check-ins in the last year
+* yearly_avg_Outstation_checkins:	Average number of out-of-station check-ins done by the user
+* member_in_family:	Total number of relationships mentioned by the user in the account
+* preferred_location_type:	Preferred type of location for traveling by the user
+* Yearly_avg_comment_on_travel_page:	Average yearly comments on any travel-related page by the user
+* total_likes_on_outofstation_checkin_received:	Total number of likes received by the user on out-of-station check-ins in the last year
+* week_since_last_outstation_checkin:	Number of weeks since the last out-of-station check-in update by the user
+* following_company_page:	Whether the customer is following the company page (Yes or No)
+* montly_avg_comment_on_company_page:	Average monthly comments on the company page by the user
+* working_flag:	Whether the customer is working or not
+* travelling_network_rating:	The rating indicating if the user has close friends who also like traveling. 1 is high, 4 is lowest
+* Adult_flag:	Whether the customer is an adult or not
+* Daily_Avg_mins_spend_on_traveling_page:	Average time spent on the company's travel page by the user
