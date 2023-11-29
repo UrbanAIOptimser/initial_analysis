@@ -1,8 +1,51 @@
 # initial_analysis
 
+## API
+### Open Data Barcelona
+https://opendata-ajuntament.barcelona.cat/en
+
+### Google Maps API:
+https://developers.google.com/maps/documentation/javascript/overview
+https://developers.google.com/maps/documentation/places/web-service/overview
+https://developers.google.com/maps/documentation/geocoding/overview
+https://developers.google.com/maps/documentation/directions/overview
+https://developers.google.com/maps/documentation/distance-matrix/overview
+https://developers.google.com/maps/documentation/streetview/overview
 
 
-## Dataset
+### TMB (Transports Metropolitans de Barcelona) API: Offers access to public transportation data, including schedules, routes, and real-time updates for buses, metro, and trams.
+https://www.tmb.cat/en/home
+OpenStreetMap: Open-source map data that can be used to develop custom maps for the app.
+Overpass API: This is a read-only API that allows to query OSM data using a specialised query language. It enables to fetch map data based on criteria like geographical area, types of features, tags, etc.
+osmAPI: OSM also provides a RESTful API that allows basic editing capabilities. This can be used to retrieve map data within bounding boxes, create and update map features, and more. However, its editing capabilities are limited compared to Overpass.
+### Weather APIs: Access to weather forecasts and conditions can help users plan their activities.
+https://openweathermap.org/api
+
+### Local News Outlets: Some news outlets offer APIs for accessing local news articles and updates.
+https://www.eventbrite.com/
+https://www.meetup.com/
+
+### Social Media APIs: Platforms like Facebook or Instagram might offer location-based data for events and community happenings.
+https://developer.twitter.com/en
+https://developers.facebook.com/docs/instagram-basic-display-api
+https://developers.facebook.com/docs/graph-api
+
+### Tourism APIs:
+https://www.barcelonaturisme.com/wv3/en/
+
+### Data from AirQuality Measurement StationsBarcelona
+ https://opendata-ajuntament.barcelona.cat/data/es/dataset/qualitat-aire-detall-bcn
+ 
+
+### Vehicles cAccidentsUrbanPoliceBarcelona
+https://opendata-ajuntament.barcelona.cat/data/es/dataset/accidents-vehicles-gu-bcn
+
+### IncidentsUrbanPoliceBarcelona
+https://opendata-ajuntament.barcelona.cat/data/es/dataset/accidents-gu-bcn)  
+
+
+## Dataset - (hardcopy)
+
 ### Chicago Divvy Bicycle Sharing Data (202004-divvy-tripdata)
 https://www.kaggle.com/datasets/yingwurenjian/chicago-divvy-bicycle-sharing-data/data
 Sharing bicycles represent a healthier and environment-friendly lifestyle. There could be some interesting mechanism behind the sharing bicycles.
